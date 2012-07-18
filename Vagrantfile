@@ -17,6 +17,12 @@ Vagrant::Config.run do |config|
     chef.json = {
       "nodejs" => {
         "version" => "0.8.1"
+      },
+      "cube" => {
+        "path" => "vagrant"
+      },
+      "user" => {
+        "name" => "vagrant"
       }
     }
   end

@@ -2,3 +2,5 @@ node_modules
 /cookbooks
 /tmp
 package.box
+
+.DS_Store
