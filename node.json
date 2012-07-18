@@ -1,0 +1,11 @@
+{
+  "nodejs": {
+    "version": "0.8.1"
+  },
+  "cube": {
+    "path": "/deployer/cube"
+  },
+  "user": {
+    "name": "deployer"
+  }
+}

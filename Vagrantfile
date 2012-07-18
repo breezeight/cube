@@ -19,7 +19,7 @@ Vagrant::Config.run do |config|
         "version" => "0.8.1"
       },
       "cube" => {
-        "path" => "vagrant"
+        "path" => "/vagrant"
       },
       "user" => {
         "name" => "vagrant"
