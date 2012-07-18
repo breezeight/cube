@@ -3,7 +3,7 @@
     "version": "0.8.1"
   },
   "cube": {
-    "path": "/deployer/cube"
+    "path": "~/cube"
   },
   "user": {
     "name": "deployer"
