@@ -7,5 +7,6 @@
   },
   "user": {
     "name": "deployer"
-  }
+  },
+  "run_list": ["recipe[nodejs]", "recipe[mongodb-debs]", "recipe[cube]"]
 }
