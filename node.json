@@ -3,10 +3,10 @@
     "version": "0.8.1"
   },
   "cube": {
-    "path": "~/cube"
+    "path": "/root/cube"
   },
   "user": {
-    "name": "deployer"
+    "name": "root"
   },
-  "run_list": ["recipe[nodejs]", "recipe[mongodb-debs]", "recipe[cube]"]
+  "run_list": ["recipe[apt]", "recipe[nodejs]", "recipe[mongodb-debs]", "recipe[cube]"]
 }

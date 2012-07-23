@@ -1,10 +1,12 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apt (1.4.4)
     build-essential (1.1.0)
     nodejs (0.6.11)
       build-essential (>= 0.0.0)
 
 DEPENDENCIES
+  apt (>= 0)
   nodejs (>= 0)
 
